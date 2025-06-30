@@ -18,7 +18,7 @@ button {
 }
 
 .counter {
-    margin-top: auto ;
+    margin-top: auto;
     background-color: #90d34c;
     width: 420px;
     height: 540px;
@@ -96,7 +96,7 @@ button {
     transition-duration: 0.4s;
 }
 
-.counter_btn:hover{
+.counter_btn:hover {
     background-color: #212b06;
     cursor: pointer;
 }
@@ -110,14 +110,16 @@ button {
 }
 
 @media screen and (max-width:680px) {
-    .counter{
+    .counter {
         width: 100%;
         height: 100%;
         border-radius: 0;
     }
+
     .counter_title {
         margin-top: 50px;
     }
+
     .counter_btns {
         border-radius: 0;
     }
